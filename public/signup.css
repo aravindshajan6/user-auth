@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 600;
+
+}
+.main-container {
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.main-heading{
+    margin-bottom: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    margin-top: 40px;
+}

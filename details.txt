@@ -1,0 +1,3 @@
+- save signup credentials internally
+- check for user while login
+- jwt authentiation
