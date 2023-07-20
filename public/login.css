@@ -5,6 +5,8 @@
 
 }
 .main-container {
+    position: relative;
+
     height: 100vh;
     background-color: pink;
     display: flex;
@@ -14,8 +16,19 @@
     justify-content: center;
     padding: 40px;
 }
+.sample-cred {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .form-container{
+    /* background-color: rgb(156, 175, 223); */
+
     display: flex;
     flex-direction: column;
     padding: 40px;
